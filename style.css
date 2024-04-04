@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main #card{
+    background-color:white;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#city{
+    color:black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: rgb(237, 225, 225);
+
+}
+#sub{
+    border-radius: 20px;
+    background-color: rgb(60, 29, 237);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+}
+#one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    flex-basis:20%;
+}
+#two{
+    /* border: 2px red solid; */
+    flex-basis: 60%;
+}
+#three{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-basis: 20%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#temperature{
+    display: block;
+    justify-content:center;
+    flex-basis: 50%;
+    /* background-color: aqua; */
+    padding-left: 10%;
+}
+/* #temp_value{
+    padding-left: 50%;
+    
+    
+} */
+
+#humididty{
+    display: block;
+    justify-content: center;
+    flex-basis: 50%;
+    
+}
